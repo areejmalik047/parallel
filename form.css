@@ -1,0 +1,89 @@
+form {
+  background-color: #eeeee4;
+  width: 500px;
+  color: brown;
+  height: auto;
+  margin-left: 10px;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 10% #9f9f96;
+}
+body {
+  font-family: Calibri, sans-serif;
+  background-color: whitesmoke;
+}
+.display {
+  display: flex;
+  flex-direction: initial;
+}
+label {
+  font-size: 20px;
+  color: brown;
+  display: block;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid;
+  color: brown;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+input[type="submit"] {
+  width: 100px;
+  padding: 10px;
+  padding-top: 15px;
+  border: 1px solid;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  background-color: brown;
+  border-radius: 10px;
+}
+/* 2nd form */
+.newform {
+  margin-left: 10px;
+  background-color: #c1d4e6;
+  width: 500px;
+  color: rgb(22, 110, 121);
+  height: auto;
+  padding: 30px;
+  margin-left: 200px;
+  border-radius: 5px;
+  box-shadow: 10% #9f9f96;
+}
+.newform input[type="text"],
+input[type="number"],
+input[type="radio"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid;
+  color: rgb(22, 110, 121);
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+.newform label {
+  font-size: 20px;
+  color: rgb(22, 110, 121);
+
+  display: block;
+  margin-bottom: 10px;
+}
+input[type="radio"] {
+  display: inline !important;
+}
+#sel {
+  color: rgb(22, 110, 121);
+  width: 150px;
+}
+#textarea {
+  color: rgb(22, 110, 121);
+  border: solid rgb(22, 110, 121);
+}
+#submit {
+  margin-left: 400px;
+}
